@@ -87,7 +87,7 @@ type Author struct {
 type PublicationStmt struct {
 	XMLName   xml.Name   `json:"-"`
 	Publisher *Publisher `xml:"publisher,omitempty" json:"publisher,omitempty"`
-	Date      *Date      `xml:"date,omitempty" json:"date,omitempty"`
+	Date      *time.Time `xml:"date,omitempty" json:"date,omitempty"`
 }
 
 type Data struct {
