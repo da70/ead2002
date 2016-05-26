@@ -35,6 +35,7 @@ package ead2002
 
 import (
 	"encoding/xml"
+	"time"
 )
 
 type EADHeader struct {
