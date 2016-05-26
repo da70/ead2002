@@ -13,3 +13,11 @@ This is a go package for working with EAD2002 finding aids.
 
 Test data examples were taken from [appendix c](https://www.loc.gov/ead/tglib/appendix_c.html) of the ead2002 website.
 
+## reference links
+
++ [Metadata EAD, EAC-CPF Exercises and Sources](http://www.metadataetc.org/book-website/exercises/exercise2-4.htm)
++ [EAD Web Templates](http://www.cdlib.org/services/access_publishing/dsc/contribute/ead_webtemplates.html)
++ [Submit EAD](http://www.cdlib.org/services/access_publishing/dsc/contribute/submitead.html)
++ [saa-ead-roundtable.org](http://saa-ead-roundtable.github.io/)
+    + [ead2002-to-ead3-transformation](https://github.com/saa-ead-roundtable/EAD-2002-to-EAD3-transformations)
++ [EAD Roundtable](http://www2.archivists.org/groups/encoded-archival-description-ead-roundtable)
