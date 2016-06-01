@@ -1,7 +1,7 @@
 
 # ead2002
 
-This is a go package for working with EAD2002 finding aids. 
+This is a go package for working with EAD2002 formatted EADs. 
 
 ## about sample ead
 
