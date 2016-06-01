@@ -40,7 +40,193 @@ import (
 	"testing"
 )
 
-func TestBasic(t *testing.T) {
+func TestDataEADs(t *testing.T) {
+	fname := path.Join("testeads", "2016.0518.0001.test_ead.xml")
+	src, err := ioutil.ReadFile(fname)
+	if err != nil {
+		t.Errorf("Cannot read %s, %s", fname, err)
+		t.FailNow()
+	}
+
+	ead, err := Parse(src)
+	if err != nil {
+		t.Errorf("Failed ot parse %s, %s", fname, err)
+	}
+
+	if ead.EADHeader == nil {
+		t.Errorf("Missing ead.EADHeader")
+		t.FailNow()
+	}
+	if ead.ArchDesc == nil {
+		t.Errorf("Missing ead.ArchDesc")
+		t.FailNow()
+	}
+	eadheader := ead.EADHeader
+	if eadheader.EADID.Value != "" {
+		t.Errorf("Wrong value eadheader.EADID.Value %+v", eadheader.EADID)
+	}
+	if eadheader.FileDesc == nil {
+		t.Errorf("Missing eadheader.FileDesc")
+		t.FailNow()
+	}
+	filedesc := eadheader.FileDesc
+	if filedesc.TitleStmt == nil {
+		t.Errorf("Missing filedesc.TitleStmt")
+		t.FailNow()
+	}
+	expected := `How did galaxies form?<num>2016.0518.0001.test</num>`
+	if len(filedesc.TitleStmt.TitleProper) != 1 ||
+		filedesc.TitleStmt.TitleProper[0].Value != expected {
+		t.Errorf("Wrong value filedesc.TitleStmt.TitleProper, %+v", filedesc.TitleStmt.TitleProper)
+	}
+	if filedesc.PublicationStmt == nil {
+		t.Errorf("Missing filedesc.PublicationStmt")
+		t.FailNow()
+	}
+	publicationstmt := filedesc.PublicationStmt
+	if publicationstmt.Publisher == nil {
+		t.Errorf("Missing pulbicationstmt.Publisher")
+	}
+	if publicationstmt.Publisher.Value != "Caltech Archives" {
+		t.Errorf("Wrong value for publications.Publisher, %+v", publicationstmt.Publisher)
+	}
+
+	archdesc := ead.ArchDesc
+	if len(archdesc.DID) != 1 {
+		t.Errorf("Wrong value for archdesc.DID, %+v", archdesc.DID)
+	}
+
+	dids := archdesc.DID
+	did := dids[0]
+	if did.LangMaterial == nil {
+		t.Errorf("Missing did.LangMaterial")
+	}
+	if did.LangMaterial.Language == nil {
+		t.Errorf("Missing did.LangMaterial.Language")
+	}
+	if did.LangMaterial.Language.LangCode != "eng" {
+		t.Errorf("Wrong value for did.LangMaterial.Language.LangCode, %+v", did.LangMaterial.Language)
+	}
+	if did.LangMaterial.Language.Value != "English" {
+		t.Errorf("Wrong value for did.LangMaterial.Language.LangCode, %+v", did.LangMaterial.Language)
+	}
+	if did.Repository == nil {
+		t.Errorf("Missing did.Repository")
+		t.FailNow()
+	}
+	if did.Repository.Corpname == nil {
+		t.Errorf("Missing did.Repository.Corpname")
+	}
+	if did.Repository.Corpname.Value != "Caltech Archives" {
+		t.Errorf("Missing did.Repository.Corpname.Value, %+v", did.Repository.Corpname)
+	}
+	if did.UnitID == nil {
+		t.Errorf("Missing did.UnitID")
+	}
+	if did.UnitID.Value != "2016.0518.0001.test" {
+		t.Errorf("Wrong value did.UnitID.Value, %+v", did.UnitID.Value)
+	}
+	if did.PhysDesc == nil {
+		t.Errorf("Missing did.PhysDesc")
+		t.FailNow()
+	}
+	physdesc := did.PhysDesc
+	if physdesc.AltRender != "whole" {
+		t.Error("Wrong value for physdesc.AltRender, %+v", physdesc)
+	}
+	if physdesc.Extent == nil {
+		t.Errorf("Missing physdesc.Extent")
+	}
+	if len(physdesc.Extent) != 1 {
+		t.Errorf("Wrong value for physdesc.Extent, %+v", physdesc.Extent)
+		t.FailNow()
+	}
+	if physdesc.Extent[0].AltRender != "materialtype spaceoccupied" {
+		t.Errorf("Wrong value for physdesc.Extent, %+v", physdesc.Extent)
+		t.FailNow()
+	}
+	if physdesc.Extent[0].Value != "1 Multimedia" {
+		t.Errorf("Wrong value for physdesc.Extent, %+v", physdesc.Extent)
+		t.FailNow()
+	}
+	if physdesc.PhysFacet == nil {
+		t.Errorf("Missing physdesc.PhysFacet")
+		t.FailNow()
+	}
+	if physdesc.PhysFacet.Value != "MEDIUM: Videorecording; FORMAT: U-matic master; VHS; LENGTH: 57m 4s; QUANTITY: 1,1" {
+		t.Errorf("Wrong value for physdesc.PhysFacet, %+v", physdesc.PhysFacet)
+	}
+	if did.UnitDate == nil {
+		t.Errorf("Missing did.UnitDate")
+		t.FailNow()
+	}
+	unitdate := did.UnitDate
+	if unitdate.Value != "1997-05-14" {
+		t.Errorf("Wrong value for unitdate.Value, %+v", unitdate)
+	}
+	if unitdate.Type != "inclusive" {
+		t.Errorf("Wrong value for unitdate.Type, %+v", unitdate)
+	}
+	if did.Container == nil {
+		t.Errorf("Missing did.Container")
+		t.FailNow()
+	}
+	if did.Container.ID != "aspace_b456221fc43b9e2bef78728177fef5fa" {
+		t.Errorf("missing value for did.Container.ID, %+v", did.Container)
+	}
+	if did.Container.Label != "Mixed Materials" {
+		t.Errorf("Missing value for did.Container.Label, %+v", did.Container)
+	}
+	if did.Container.Type != "box" {
+		t.Errorf("Missing value for did.Container.Type, %+v", did.Container.Type)
+	}
+	if did.Container.Value != "Test Box Container" {
+		t.Errorf("Wrong value for did.Container.Value, %+v", did.Container.Value)
+	}
+
+	if archdesc.ScopeContent == nil {
+		t.Errorf("Missing ead.ArchDesc.ScopeContent")
+		t.FailNow()
+	}
+	if archdesc.ScopeContent.Audience != "internal" {
+		t.Errorf("Wrong value for archdesc.ScopeContent, %+v", archdesc.ScopeContent)
+	}
+	if archdesc.ScopeContent.ID != "aspace_83fcae08dcbb5f987bcf9db34d048fbe" {
+		t.Errorf("Wrong value for archdesc.ScopeContent.ID, %+v", archdesc.ScopeContent)
+	}
+	if archdesc.ScopeContent.Head != "Content Description" {
+		t.Errorf("Wrong value for archdesc.ScopeContent.Head, %+v", archdesc.ScopeContent)
+	}
+	if archdesc.ScopeContent.P == nil {
+		t.Errorf("Missing archdesc.ScopeContent.P")
+		t.FailNow()
+	}
+	if archdesc.ScopeContent.P.Value != `Seventh in series of 10 lectures for non-specialists in this subject area, April -June 1997. George Djorgovski is co-speaker.  See also Seminar 0.1 lectures in other subject areas.` {
+		t.Errorf("Wrong value for archdesc.ScopeContent.P, %+v", archdesc.ScopeContent.P)
+	}
+	if archdesc.ControlAccess == nil {
+		t.Errorf("Missing archdesc.ControlAccess")
+		t.FailNow()
+	}
+	if len(archdesc.ControlAccess.Subject) != 2 {
+		t.Errorf("Wrong value for archdesc.ControlAccess.Subject, %+v", archdesc.ControlAccess)
+	}
+	if archdesc.ControlAccess.Function.Source != "local" {
+		t.Errorf("Wrong value for archdesc.ControlAccess.Function.Source, %+v", archdesc.ControlAccess.Function)
+	}
+	if archdesc.ControlAccess.Function.Value != "Seminar 0.1 series" {
+		t.Errorf("Wrong value for archdesc.ControlAccess.Function.Value, %+v", archdesc.ControlAccess.Function)
+	}
+	if archdesc.DSC == nil {
+		t.Errorf("Missing archdesc.DSC")
+		t.FailNow()
+	}
+	if archdesc.DSC.Value != "" {
+		t.Errorf("Wrong value for archdesc.DSC, %+v", archdesc.DSC)
+	}
+}
+
+func TestExampleEADs(t *testing.T) {
 	// See if we can read an EAD produced by ArchivesSpace
 	testParse10021_MS := func(fname string) {
 		src, err := ioutil.ReadFile(fname)
@@ -232,10 +418,10 @@ func TestBasic(t *testing.T) {
 	//
 	// Test the ArchivesSpace generated EAD
 	//
-	testParse10021_MS(path.Join("example-eads", "10021-MS_ead-from-AS.xml"))
+	testParse10021_MS(path.Join("testeads", "10021-MS_ead-from-AS.xml"))
 
 	//
 	// Test the OAC version of the EAD
 	//
-	testParse10021_MS(path.Join("example-eads", "10021-MS_ead-from-OAC.xml"))
+	testParse10021_MS(path.Join("testeads", "10021-MS_ead-from-OAC.xml"))
 }

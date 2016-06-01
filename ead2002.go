@@ -163,6 +163,7 @@ type ArchDesc struct {
 	ScopeContent    *ScopeContent   `xml:"scopecontent,omitempty" json:"scopecontent,omitempty"`
 	ControlAccess   *ControlAccess  `xml:"controlaccess,omitempty" json:"controlaccess,omitempty"`
 	OtherFindAid    *OtherFindAid   `xml:"otherfindaid,omitempty" json:"otherfindaid,omitempty"`
+	DSC             *DSC            `xml:"dsc,omitempty" json:"dsc,omitempty"`
 }
 
 type DID struct {
@@ -176,6 +177,15 @@ type DID struct {
 	Abstract     *Abstract     `xml:"abstract,omitempty" json:"abstract,omitempty"`
 	UnitID       *UnitID       `xml:"unitid,omitempty" json:"unitid,omitempty"`
 	LangMaterial *LangMaterial `xml:"langmaterial,omitempty" json:"langmaterial,omitempty"`
+	Container    *Container    `xml:"container,omitempty" json:"container,omitempty"`
+}
+
+type Container struct {
+	XMLName xml.Name `json:"-"`
+	ID      string   `xml:"id,attr,omitempty" json:"id,omitempty"`
+	Label   string   `xml:"label,attr,omitempty" json:"label,omitempty"`
+	Type    string   `xml:"type,attr,omitempty" json:"type,omitempty"`
+	Value   string   `xml:",innerxml" json:"value,omitempty"`
 }
 
 type LangMaterial struct {
@@ -236,6 +246,13 @@ type PhysDesc struct {
 	EncodingAnalog string     `xml:"encodinganalog,attr,omitempty" json:"encodinganalog,omitempty"`
 	Label          string     `xml:"label,attr,omitempty" json:"label,omitempty"`
 	Extent         ExtentList `xml:"extent,omitempty" json:"extent,omitempty"`
+	AltRender      string     `xml:"altrender,attr,omitempty" json:"altrender,omitempty"`
+	PhysFacet      *PhysFacet `xml:"physfacet,omitempty" json:"physfacet,omitempty"`
+}
+
+type PhysFacet struct {
+	XMLName xml.Name `json:"-"`
+	Value   string   `xml:",innerxml" json:"value,omitempty"`
 }
 
 type Extent struct {
@@ -282,10 +299,11 @@ type BiogHist struct {
 }
 
 type ScopeContent struct {
-	XMLName xml.Name `json:"-"`
-	ID      string   `xml:"id,attr,omitempty" json:"id,omitempty"`
-	Head    string   `xml:"head,omitemtpy" json:"head,omitempty"`
-	P       *P       `xml:"p,omitempty" json:"p,omitempty"`
+	XMLName  xml.Name `json:"-"`
+	Audience string   `xml:"audience,attr,omitempty" json:"audience,omitempty"`
+	ID       string   `xml:"id,attr,omitempty" json:"id,omitempty"`
+	Head     string   `xml:"head,omitemtpy" json:"head,omitempty"`
+	P        *P       `xml:"p,omitempty" json:"p,omitempty"`
 }
 
 type OtherFindAid struct {
@@ -315,6 +333,7 @@ type ControlAccess struct {
 	XMLName  xml.Name  `json:"-"`
 	Subject  []Subject `xml:"subject,omitempty" json:"subject,omitempty"`
 	Corpname *Corpname `xml:"corpname,omitempty" json:"corpname,omitempty"`
+	Function *Function `xml:"function,omitempty" json:"function,omitempty"`
 }
 
 type Subject struct {
@@ -324,6 +343,18 @@ type Subject struct {
 }
 
 type Corpname struct {
+	XMLName xml.Name `json:"-"`
+	Source  string   `xml:"source,attr,omitempty" json:"source,omitempty"`
+	Value   string   `xml:",innerxml" json:"value,omitempty"`
+}
+
+type Function struct {
+	XMLName xml.Name `json:"-"`
+	Source  string   `xml:"source,attr,omitempty" json:"source,omitempty"`
+	Value   string   `xml:",innerxml" json:"value,omitempty"`
+}
+
+type DSC struct {
 	XMLName xml.Name `json:"-"`
 	Source  string   `xml:"source,attr,omitempty" json:"source,omitempty"`
 	Value   string   `xml:",innerxml" json:"value,omitempty"`
