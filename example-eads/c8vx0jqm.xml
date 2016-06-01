@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ead>
+     <eadheader langencoding="iso639-2b" scriptencoding="iso15924" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+         <eadid xmlns:cdlpath="http://www.cdlib.org/path/" countrycode="us" identifier="ark:/13030/c8vx0jqm" mainagencycode="CIT" publicid="10206-MS" cdlpath:parent="ark:/13030/tf938nc278" >10206-MS</eadid>
+         <filedesc id="filedesc">
+             <titlestmt>
+                 <titleproper>Gilbert D. McCann Papers</titleproper>
+                 <titleproper type="filing">McCann (Gilbert D.) Papers</titleproper>
+                 <author>Finding aid created by California Institute of Technology staff using RecordEXPRESS</author>
+             </titlestmt>
+             <publicationstmt>
+                 <publisher>California Institute of Technology</publisher>
+                 <address>
+                     <addressline>1200 East California Blvd., Mail Code 015A-74</addressline>
+                     
+                     <addressline>Pasadena, California 91125</addressline>
+                     
+                     <addressline>(626) 395-2704</addressline>
+                     
+                     
+                     <addressline>archives@caltech.edu</addressline>
+                     
+                     
+                     <addressline>http://archives.caltech.edu/</addressline>
+                     
+                 </address>
+                 <date>2014</date>
+             </publicationstmt>
+         </filedesc>
+     </eadheader>
+     <archdesc level="collection" id="archdesc">
+         <did id="did">
+             <head>Descriptive Summary</head>
+             <unittitle label="Title">Gilbert D. McCann Papers</unittitle>
+             <unitdate  label="Dates">1963-1981</unitdate>
+             <unitid label="Collection Number" repositorycode="CIT" countrycode="US">10206-MS</unitid>
+             <origination label="Creator/Collector">
+                 
+                 
+                 
+             </origination>
+             <physdesc label="Extent"><extent>1 linear foot</extent>
+             </physdesc>
+             
+             <repository label="Repository">
+                 <corpname>California Institute of Technology</corpname>
+                 <address>
+                     <addressline>Pasadena, California 91125</addressline>
+                 </address>
+             </repository>
+             <abstract label="Abstract">A small collection of materials, reprints of Gilbert McCann, software diskettes, photographs and an autobiography manuscript form the collection known as the Gilbert McCann Papers in the Archives of the California Institute of  Technology (Caltech). Professor of Applied Science at Caltech he was the driving force behind computing at Caltech for 25 years, starting in 1946 with an analog computer that he invented, continuing through the time when new materials, miniaturization, and software transformed digital computing and made the analog obsolete.</abstract>
+             <langmaterial><language langcode="eng"/></langmaterial>
+        </did>
+        <accessrestrict id="accessrestrict"><head>Access</head><p>The collection is open for research. Researchers must apply in writing for access.</p></accessrestrict>
+        <userestrict id="userestrict"><head>Publication Rights</head><p>Copyright may not have been assigned to the California Institute of Technology Archives. All requests for permission to publish or quote from manuscripts must be submitted in writing to the Head of the Archives. Permission for publication is given on behalf of the California Institute of Technology Archives as the owner of the physical items and is not intended to include or imply permission of the copyright holder, which must also be obtained by the reader.</p></userestrict>
+        <prefercite id="prefercite"><head>Preferred Citation</head><p>Gilbert D. McCann Papers.  California Institute of Technology</p></prefercite>
+        <acqinfo id="acqinfo"><head>Acquisition Information</head><p>The papers were donated by Janice Maxvall, daughter of Gilbert McCann.</p></acqinfo>
+        
+        <scopecontent id="scopecontent"><head>Scope and Content of Collection</head><p>The papers include mostly McCann reprint collection from 1963 to 1981. In addition there are also his 1990 memoirs, some software diskettes and photographs, both personal and from computational morphology.</p></scopecontent>
+        <controlaccess id="controlaccess">
+            <head>Indexing Terms</head>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </controlaccess>
+        
+        <otherfindaid id="otherfindaid">
+            <head>Additional collection guides</head>
+            <list>
+            
+            <item><extref href="/data/13030/qm/c8vx0jqm/files/McCann Container List.pdf">Container List</extref></item>
+            
+            </list>
+        </otherfindaid>
+        
+    </archdesc>
+</ead>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"><eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511"><eadid></eadid><filedesc><titlestmt><titleproper>How did galaxies form?<num>2016.0518.0001.test</num></titleproper></titlestmt><publicationstmt><publisher>Caltech Archives</publisher></publicationstmt></filedesc><profiledesc><creation>This finding aid was produced using ArchivesSpace on <date>2016-05-26 19:12:57 UTC</date>.</creation></profiledesc></eadheader><archdesc level="collection">
+  <did>
+    <langmaterial>
+      <language langcode="eng">English</language>
+    </langmaterial>
+    <repository>
+      <corpname>Caltech Archives</corpname>
+    </repository>
+    <unittitle>How did galaxies form?</unittitle>
+    <origination label="creator">
+      <persname rules="dacs" source="local">Steidel, Charles</persname>
+    </origination>
+    <unitid>2016.0518.0001.test</unitid>
+    <physdesc altrender="whole">
+      <extent altrender="materialtype spaceoccupied">1 Multimedia</extent>
+      <physfacet>MEDIUM: Videorecording; FORMAT: U-matic master; VHS; LENGTH: 57m 4s; QUANTITY: 1,1</physfacet>
+    </physdesc>
+    <unitdate type="inclusive">1997-05-14</unitdate>
+    <container id="aspace_b456221fc43b9e2bef78728177fef5fa" label="Mixed Materials" type="box">Test Box Container</container>
+  </did>
+  <scopecontent audience="internal" id="aspace_83fcae08dcbb5f987bcf9db34d048fbe">
+    <head>Content Description</head>
+<p>Seventh in series of 10 lectures for non-specialists in this subject area, April -June 1997. George Djorgovski is co-speaker.  See also Seminar 0.1 lectures in other subject areas.</p>  </scopecontent>
+  <controlaccess>
+    <subject source="local">Astronomy</subject>
+    <subject source="local">Geology</subject>
+    <function source="local">Seminar 0.1 series</function>
+  </controlaccess>
+  <dsc/>
+</archdesc>
+</ead>

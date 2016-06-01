@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ead>
+     <eadheader langencoding="iso639-2b" scriptencoding="iso15924" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+         <eadid xmlns:cdlpath="http://www.cdlib.org/path/" countrycode="us" identifier="ark:/13030/c8ns0x3v" mainagencycode="CIT" publicid="10033-MS" cdlpath:parent="ark:/13030/tf938nc278" >10033-MS</eadid>
+         <filedesc id="filedesc">
+             <titlestmt>
+                 <titleproper>The Papers of Cornelis A. G. Wiersma, 1921-1979</titleproper>
+                 <titleproper type="filing">Wiersma (Cornelis A. G.) Papers</titleproper>
+                 <author>Finding aid created by California Institute of Technology staff using RecordEXPRESS</author>
+             </titlestmt>
+             <publicationstmt>
+                 <publisher>California Institute of Technology</publisher>
+                 <address>
+                     <addressline>1200 East California Blvd., Mail Code 015A-74</addressline>
+                     
+                     <addressline>Pasadena, California 91125</addressline>
+                     
+                     <addressline>(626) 395-2704</addressline>
+                     
+                     
+                     <addressline>archives@caltech.edu</addressline>
+                     
+                     
+                     <addressline>http://archives.caltech.edu/</addressline>
+                     
+                 </address>
+                 <date>2014</date>
+             </publicationstmt>
+         </filedesc>
+     </eadheader>
+     <archdesc level="collection" id="archdesc">
+         <did id="did">
+             <head>Descriptive Summary</head>
+             <unittitle label="Title">The Papers of Cornelis A. G. Wiersma, 1921-1979</unittitle>
+             <unitdate  label="Dates">1921-1979</unitdate>
+             <unitid label="Collection Number" repositorycode="CIT" countrycode="US">10033-MS</unitid>
+             <origination label="Creator/Collector">
+                 
+                 
+                 
+             </origination>
+             <physdesc label="Extent"><extent>3 linear feet</extent>
+             </physdesc>
+             
+             <repository label="Repository">
+                 <corpname>California Institute of Technology</corpname>
+                 <address>
+                     <addressline>Pasadena, California 91125</addressline>
+                 </address>
+             </repository>
+             <abstract label="Abstract">The professional correspondence relating to neurophysiology (principally between 1950-1970) and organizational work, professional associations &amp; publishing material, photographs, reprints, and research notes form the collection known as the Cornelis Wiersma in the Archives of the California Institute of Technology (Caltech).</abstract>
+             <langmaterial><language langcode="eng"/></langmaterial>
+        </did>
+        <accessrestrict id="accessrestrict"><head>Access</head><p>The collection is open for research. Researchers must apply in writing for access.</p></accessrestrict>
+        <userestrict id="userestrict"><head>Publication Rights</head><p>Copyright may not have been assigned to the California Institute of Technology Archives. All requests for permission to publish or quote from manuscripts must be submitted in writing to the Head of the Archives. Permission for publication is given on behalf of the California Institute of Technology Archives as the owner of the physical items and is not intended to include or imply permission of the copyright holder, which must also be obtained by the reader.</p></userestrict>
+        <prefercite id="prefercite"><head>Preferred Citation</head><p>The Papers of Cornelis A. G. Wiersma, 1921-1979.  California Institute of Technology</p></prefercite>
+        <acqinfo id="acqinfo"><head>Acquisition Information</head><p>The collection was a gift of Mrs. Wiersma; of  the Division of Physics, Mathematics &amp; Astronomy; of W.A.J. Luxemburg and of  Peter J. Mills.</p></acqinfo>
+        
+        <bioghist id="bioghist"><head>Biography/Administrative History</head><p>Born and educated in the Netherlands, Wiersma came to the Biology Department at the California Institute of Technology in 1934 at the invitation of Thomas Hunt Morgan.  He represented the field of comparative physiology and his scientific career focused first on the neuromuscular system, then the central nervous system and finally on the visual system.  From 1943 to 1950, he studied the myography and treatment of poliomyelitis and the treatment of schizophrenia with electronarcosis while on the attending staff of the L. A. County General Hospital.  Wiersma was also a member of the Los Angeles County Smog Control Commission, which studied the effects of pollution on humans in the Los Angeles area.
+
+	In 1976, he was honored by a symposium given by his former coworkers when he retired after forty-five years, and was given the title Professor Emeritus.  Wiersma maintained an active interest in his research until he died.
+
+	Wiersma was a member of the American Association for the Advancement of Science, the American Physiological Society, the Society for Neuroscience and Sigma Xi.  He was a correspondent of the Royal Netherlands Academy of Arts and Sciences and a foreign associate of the National Academy of Science.
+</p></bioghist>
+        
+        <scopecontent id="scopecontent"><head>Scope and Content of Collection</head><p>The bulk of the collection is professional correspondence, including items in Dutch and German, relating mainly to his work in neurophysiology, principally between 1950 to 1970.  other correspondence is concerned with meetings, professional associations and publishing.  A small part of the collection is devoted to areas of research and research programs.</p></scopecontent>
+        <controlaccess id="controlaccess">
+            <head>Indexing Terms</head>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </controlaccess>
+        
+        <otherfindaid id="otherfindaid">
+            <head>Additional collection guides</head>
+            <list>
+            
+            <item><extref href="/data/13030/3v/c8ns0x3v/files/Wiersma ContainerList.pdf">Container List</extref></item>
+            
+            </list>
+        </otherfindaid>
+        
+    </archdesc>
+</ead>

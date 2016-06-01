@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ead>
+     <eadheader langencoding="iso639-2b" scriptencoding="iso15924" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+         <eadid xmlns:cdlpath="http://www.cdlib.org/path/" countrycode="us" identifier="ark:/13030/c8q243dv" mainagencycode="CIT" publicid="10090-MS" cdlpath:parent="ark:/13030/tf938nc278" >10090-MS</eadid>
+         <filedesc id="filedesc">
+             <titlestmt>
+                 <titleproper>Marvin L. Goldberger Papers</titleproper>
+                 <titleproper type="filing">Goldberger (Marvin L.) Papers</titleproper>
+                 <author>Finding aid created by California Institute of Technology staff using RecordEXPRESS</author>
+             </titlestmt>
+             <publicationstmt>
+                 <publisher>California Institute of Technology</publisher>
+                 <address>
+                     <addressline>1200 East California Blvd., Mail Code 015A-74</addressline>
+                     
+                     <addressline>Pasadena, California 91125</addressline>
+                     
+                     <addressline>(626) 395-2704</addressline>
+                     
+                     
+                     <addressline>archives@caltech.edu</addressline>
+                     
+                     
+                     <addressline>http://archives.caltech.edu/</addressline>
+                     
+                 </address>
+                 <date>2014</date>
+             </publicationstmt>
+         </filedesc>
+     </eadheader>
+     <archdesc level="collection" id="archdesc">
+         <did id="did">
+             <head>Descriptive Summary</head>
+             <unittitle label="Title">Marvin L. Goldberger Papers</unittitle>
+             <unitdate  label="Dates">1959-1987, bulk 1969-1987</unitdate>
+             <unitid label="Collection Number" repositorycode="CIT" countrycode="US">10090-MS</unitid>
+             <origination label="Creator/Collector">
+                 
+                 <persname>Marvin L.</persname>
+                 
+                 
+                 <famname>Goldberger</famname>
+                 
+                 
+                 <corpname>California Institute of Technology</corpname>
+                 
+             </origination>
+             <physdesc label="Extent"><extent>103 linear feet</extent>
+             </physdesc>
+             
+             <repository label="Repository">
+                 <corpname>California Institute of Technology</corpname>
+                 <address>
+                     <addressline>Pasadena, California 91125</addressline>
+                 </address>
+             </repository>
+             <abstract label="Abstract">Marvin L. Goldberger (1922-2014) became Caltech’s fifth president in 1978.  Goldberger was a  particle physicist who worked on the Manhattan Project and later became deeply involved in arms control and defense analysis.  His papers document mainly his nine years as Caltech’s president (1978-1987) but include some files from his predecessor at Caltech, Harold Brown (Caltech’s president, 1969-1976).  The papers include personal and general correspondence, documents relating to the administration of Caltech and the Jet Propulsion Laboratory (JPL), papers concerning professional societies, government and civic affairs, arms control, human rights, and a small amount of personal and biographical material.</abstract>
+             <langmaterial><language langcode="eng"/></langmaterial>
+        </did>
+        <accessrestrict id="accessrestrict"><head>Access</head><p>After a mandated 25-year closure period, the collection is open for research with the exception of two closed files.  Researchers must apply for access.  https://docuserve.library.caltech.edu/aeon/</p></accessrestrict>
+        <userestrict id="userestrict"><head>Publication Rights</head><p>Permission to publish must be obtained from Head of Archives &amp; Special Collections.</p></userestrict>
+        <prefercite id="prefercite"><head>Preferred Citation</head><p>Marvin L. Goldberger Papers.  California Institute of Technology</p></prefercite>
+        <acqinfo id="acqinfo"><head>Acquisition Information</head><p>The Goldberger papers were transferred to the Caltech Archives from the Office of the President at Caltech in July 1988, and supplements were added in 1994 and 1996.</p></acqinfo>
+        
+        <bioghist id="bioghist"><head>Biography/Administrative History</head><p>Marvin Leonard “Murph” Goldberger was born on October 22, 1922, in Chicago, Illinois.  He received his bachelor’s degree from the Carnegie Institute of Technology (now Carnegie-Mellon University) in 1943 and his PhD in physics from the University of Chicago in 1948, where he served on the physics faculty.  In 1957 he was appointed Higgins Professor of Mathematical Physics at Princeton University, where he remained until 1978, serving as chairman of the physics department.  He was named the Joseph Henry Professor of Physics in 1977.  In 1978 he was appointed fifth president of the California Institute of Technology (Caltech), where he served until 1987.
+
+During his tenure as Caltech’s president, Goldberger reformed undergraduate education, overseeing the revision of teaching standards, the revamping of curriculum, the renovation of undergraduate residence houses and the establishment of the Summer Undergraduate Research Fellowships (SURF) program. Other major accomplishments include the addition of three major new laboratories to the campus; the acquisition of a $70 million dollar grant for the construction of the W. M. Keck Observatory in Hawaii and the $50 million dollar pledge for the Beckman Institute; and the establishment of new programs in educational computing, and computation and neural systems.  Goldberger left Caltech in 1987 to assume the directorship of the Institute for Advanced Study in Princeton.  In 1991, he returned to California to become a professor of physics at UCLA; in 1993, he moved to UC San Diego, where he was a professor of physics and later dean of the university&#39;s Division of Natural Sciences.
+
+Goldberger was a particle physicist who worked on the Manhattan Project.  With theoretical physicist Sam Bard Treiman, he derived the so-called Goldberger-Treiman relation, which gives a quantitative connection between the strong and weak interaction properties of the proton and neutron. 
+
+Goldberger was very active in international scientific affairs.  From 1963 to 1969 he was chairman of the High Energy Physics Commission of the International Union of Pure and Applied Physics (IUPAP) and for several years a US representative to that organization.  In May 1972 he headed the scientific delegation to the People’s Republic of China that arranged for the first visit to the US in December of 1972 of a group of Chinese scientists.  He returned to China in July 1973 as head of a delegation of US scientists, and again in September 1978 with a delegation of Caltech trustees, administrators and faculty.  
+
+Dr. Goldberger was also active for many years as a science advisor to government agencies on international security and arms control.  He was one of the founders in 1959 of the JASON group, which advised the Department of Defense.  From 1965 to 1969 he was a member of the President’s Science Advisory Council (PSAC).  He received numerous awards and academic honors, including the Dannie Heineman Prize for Mathematical Physics, the Presidential Award of the New York Academy of Sciences, the Leonard I. Beerman Peace and Justice Award, and honorary degrees from Carnegie Mellon, the University of Notre Dame, Hebrew Union College, the University of Judaism and Occidental College.  Goldberger was a member of the National Academy of Sciences, the American Physical Society, the American Association for the Advancement of Science, the American Academy of Arts and Sciences and the American Philosophical Society.  He served as cochairman of the National Research Council and was a member of the Council on Foreign Relations and the Institute on Global Conflict and Cooperation International Advisory Board.  
+
+Marvin Goldberger died on November 26, 2014.  He was predeceased by his wife, Mildred, in 2006.  They were the parents of two sons, Joel and Sam Goldberger.</p></bioghist>
+        
+        <scopecontent id="scopecontent"><head>Scope and Content of Collection</head><p>The Marvin L. Goldberger papers document mainly the years of his presidency at Caltech, 1978-1987.  A small proportion of files from his predecessor in the president’s office, Harold Brown, have been included in the collection.  These include material dating back to 1969, the first year of Brown’s presidency, and there are additionally a few minor papers that date even further back, to 1959 during the presidency of Lee A. DuBridge.  
+
+The Goldberger papers comprise 103 linear feet and are arranged in ten series as follows:  general correspondence, 1964-1987; documents relating to the California Institute of Technology; documents relation to the Jet Propulsion Laboratory; professional organizations and meetings; educational institutions; United States government; State of California; civic affairs; arms control, defense analysis and human rights; and personal and biographical material.  The most extensive portion of the papers relates to Caltech on matters of administration, academic and research departments and programs, development, business and finance, student and faculty affairs, trustees and campus-wide activities.  Goldberger’s involvement in international affairs, especially in relation to China in the 1970s and 80s, is found both in the Caltech series and under the National Academy of Sciences in professional organizations.  Of particular interest are materials in series 9, arms control, defense analysis and human rights; these include founding documents on JASON and on Goldberger’s work on behalf of Soviet scientists Andrei Sakharov, Anatoly Shcharansky and others.</p></scopecontent>
+        <controlaccess id="controlaccess">
+            <head>Indexing Terms</head>
+            
+                <subject>Physics</subject>
+            
+                <subject>Theoretical physics</subject>
+            
+                <subject>Human rights</subject>
+            
+                <subject>Arms control</subject>
+            
+                <subject>College presidents</subject>
+            
+            
+            
+            
+                <corpname role="subject">California Institute of Technology</corpname>
+            
+            
+            
+            
+            
+            
+                <occupation role="subject">Physicists</occupation>
+            
+        </controlaccess>
+        
+        <otherfindaid id="otherfindaid">
+            <head>Additional collection guides</head>
+            <list>
+            
+            <item><extref href="/data/13030/dv/c8q243dv/files/Goldberger Container List.pdf">Container List</extref></item>
+            
+            </list>
+        </otherfindaid>
+        
+    </archdesc>
+</ead>

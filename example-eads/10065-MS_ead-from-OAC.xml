@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ead>
+     <eadheader langencoding="iso639-2b" scriptencoding="iso15924" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+         <eadid xmlns:cdlpath="http://www.cdlib.org/path/" countrycode="us" identifier="ark:/13030/c8hm5bmg" mainagencycode="CIT" publicid="10065-MS" cdlpath:parent="ark:/13030/tf938nc278" >10065-MS</eadid>
+         <filedesc id="filedesc">
+             <titlestmt>
+                 <titleproper>Records of the Carnegie Program &amp; the California Seminar on Arms Control and Foreign Policy</titleproper>
+                 <titleproper type="filing">Carnegie Program &amp; the California Seminar on Arms Control and Foreign Policy Records</titleproper>
+                 <author>Finding aid created by California Institute of Technology staff using RecordEXPRESS</author>
+             </titlestmt>
+             <publicationstmt>
+                 <publisher>California Institute of Technology</publisher>
+                 <address>
+                     <addressline>1200 East California Blvd., Mail Code 015A-74</addressline>
+                     
+                     <addressline>Pasadena, California 91125</addressline>
+                     
+                     <addressline>(626) 395-2704</addressline>
+                     
+                     
+                     <addressline>archives@caltech.edu</addressline>
+                     
+                     
+                     <addressline>http://archives.caltech.edu/</addressline>
+                     
+                 </address>
+                 <date>2014</date>
+             </publicationstmt>
+         </filedesc>
+     </eadheader>
+     <archdesc level="collection" id="archdesc">
+         <did id="did">
+             <head>Descriptive Summary</head>
+             <unittitle label="Title">Records of the Carnegie Program &amp; the California Seminar on Arms Control and Foreign Policy</unittitle>
+             <unitdate  label="Dates">1960-1966</unitdate>
+             <unitid label="Collection Number" repositorycode="CIT" countrycode="US">10065-MS</unitid>
+             <origination label="Creator/Collector">
+                 
+                 <persname>Erwin, Charlotte;</persname>
+                 
+                 <persname>Knox, Kevin.</persname>
+                 
+                 
+                 
+             </origination>
+             <physdesc label="Extent"><extent>1.5 linear feet</extent>
+             </physdesc>
+             
+             <repository label="Repository">
+                 <corpname>California Institute of Technology</corpname>
+                 <address>
+                     <addressline>Pasadena, California 91125</addressline>
+                 </address>
+             </repository>
+             <abstract label="Abstract">Records of the Science and Government Program of the Caltech Humanities Division, sponsored by the Carnegie Corporation, 1960-1966. The program consisted of a series of seminars on arms control. Speakers from government (domestic and foreign), the military, and from the sciences and humanities were brought together. UCLA participated in the program beginning in the second year. </abstract>
+             <langmaterial><language langcode="eng"/></langmaterial>
+        </did>
+        <accessrestrict id="accessrestrict"><head>Access</head><p>The collection is open for research. Researchers must apply in writing for access.</p></accessrestrict>
+        <userestrict id="userestrict"><head>Publication Rights</head><p>Copyright may not have been assigned to the California Institute of Technology Archives. All requests for permission to publish or quote from manuscripts must be submitted in writing to the Head of the Archives. Permission for publication is given on behalf of the California Institute of Technology Archives as the owner of the physical items and is not intended to include or imply permission of the copyright holder, which must also be obtained by the reader.</p></userestrict>
+        <prefercite id="prefercite"><head>Preferred Citation</head><p>Records of the Carnegie Program &amp; the California Seminar on Arms Control and Foreign Policy.  California Institute of Technology</p></prefercite>
+        <acqinfo id="acqinfo"><head>Acquisition Information</head><p>The Records of the Carnegie Program in Science and Government were donated to the Archives by Professor David Elliot of Caltech&#39;s Division of Humanities and Social Sciences in 1970.</p></acqinfo>
+        
+        <scopecontent id="scopecontent"><head>Scope and Content of Collection</head><p>In 1960 the Carnegie Corporation gave a substantial grant to Caltech’s Humanities Division to support a program on “Science and Government.”  The decision was made to focus the program on arms control, and by the summer of 1960, the first session of  “preliminary” seminars was underway.  The program lasted five to six years.
+
+The program modeled itself to some degree on an existing joint faculty seminar at Harvard and MIT led by Henry Kissinger.  At Caltech, the two original organizers were Professors David C. Elliot (history) and Matthew Sands (physics), with consistent support from Charles C. Lauritsen (physics).  The purpose was to bring scientists, historians and political scientists together to try to answer some of the most pressing questions of security and arms control.  Approximately fifty Caltech faculty members agreed to commit themselves to weekly meetings, to which a distinguished speaker, typically from the outside but not always, was invited.  In the first year, some of the visitors were:  a number of representatives from the Rand Corporation, including Albert Wohlstetter (the Rand visitors provided the “preliminary” or orientation phase of the seminar); US military leaders, such as Gen. Maxwell Taylor; representatives from academic institutions, including Kissinger and Thomas Schelling from Harvard, James R. Killian and Jerome B. Wiesner from MIT and I. I. Rabi from Columbia; and an array of foreign visitors, among them John Strachey, liberal MP from the UK, Sir Solly Zuckerman from the University of Birmingham (UK), and A. Topchev from the USSR.  Talks were not recorded or published at Caltech; however, after the first year, UCLA began to host the speakers following their Caltech presentations, and the talks were then published under UCLA’s aegis.
+
+During the preliminary and subsequent seminars, the talks were summarized and the summaries were distributed to interested parties.  David Elliot was responsible for most of the summaries, with Al Hibbs contributing significantly in later years.  These summations now form the basis of the papers in the Carnegie Program collection, dating from June 21, 1960 through May 18, 1966.  For the first three years, from 1960-1963, the meetings were titled “Arms Control Seminars.”  Beginning in the fall of 1963, they were titled “Seminar on National Security.”  At this time the program merged with a class of the same name given at Caltech by David Elliot as History 125.
+
+In 1970, along with Bill Bader, Albert Wohlsletter, David Elliot helped develop the Southern California Arms Control and Foreign Policy Seminar.  Sponsored jointly by Caltech and the Rand Corporation, and with additional funding from the Ford Foundation, the seminar was intended to promote &quot;informed public discussion of the issues that the United States will face in foreign policy and arms control in the 1970s.&quot;  David Elliot and the organizers encouraged both the participation of professionally distinguished residents of greater Los Angeles and the vicinity who held posts in the government and younger people without government experience.  The seminar flourished; the directors found a steady stream of distinguished lecturers and their publications found a wide audience.  The seminars and publications continued through the 1980s.
+
+The papers are arranged in three series.  The first series details the activities of the Carnegie Program, the second centers on the California Seminar and the final, short, series contains material directly related to the program and seminar.  Each series contains correspondence, financial records and texts of lectures.
+
+Researchers should also refer to the oral history with David Elliot by Carol Bugé (1986), pp. 85-99; and to the article, “Scorpions in a Bottle” by Cushing Strout in Engineering and Science (April 1961), pp. 9-13.</p></scopecontent>
+        <controlaccess id="controlaccess">
+            <head>Indexing Terms</head>
+            
+                <subject>Arms Control</subject>
+            
+            
+            
+            
+                <corpname role="subject">California Institute of Technology</corpname>
+            
+                <corpname role="subject">Carnegie Program in Science and Government</corpname>
+            
+            
+            
+            
+            
+            
+        </controlaccess>
+        
+        <otherfindaid id="otherfindaid">
+            <head>Additional collection guides</head>
+            <list>
+            
+            <item><extref href="/data/13030/mg/c8hm5bmg/files/Carnegie Program_Container.pdf">Container List</extref></item>
+            
+            </list>
+        </otherfindaid>
+        
+    </archdesc>
+</ead>

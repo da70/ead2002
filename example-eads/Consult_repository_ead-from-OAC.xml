@@ -1,0 +1,924 @@
+<?xml version="1.0"?>
+<ead>
+  
+  
+  
+  
+  <eadheader xmlns:cdlpath="http://www.cdlib.org/path/" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" audience="internal" langencoding="iso639-2b" findaidstatus="unverified-full-draft"><eadid countrycode="us" identifier="ark:/13030/tf3w1002s5" mainagencycode="CIT" publicid="PUBLIC &quot;-//California Institute of Technology::Archives//TEXT (US::CIT::Consult repository::J. Kent Clark Papers)//EN&quot; &quot;clark_j.sgm&quot;" cdlpath:parent="ark:/13030/tf938nc278">clark_j.xml</eadid><filedesc>
+      <titlestmt>
+        <titleproper>Guide to the J. Kent Clark Papers, <date calendar="gregorian" era="ce">1954-2003</date></titleproper><titleproper type="filing">Clark (J. Kent) Papers</titleproper>
+        <author>Processed by Charlotte E. Erwin</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Archives</publisher>
+        <address>
+          <addressline>California Institute of Technology</addressline>
+          <addressline>1200 East California Blvd.</addressline>
+          <addressline>Mail Code 015A-74</addressline>
+          <addressline>Pasadena, CA 91125</addressline>
+          <addressline>Phone: (626) 395-2704</addressline>
+          <addressline>Fax: (626) 793-8756</addressline>
+          <addressline>Email: archives@caltech.edu</addressline>
+          <addressline>URL: http://archives.caltech.edu</addressline>
+        </address>
+        <date calendar="gregorian" era="ce">&#xA9; 2003</date>
+        <p>California Institute of Technology. All rights reserved.</p>
+      </publicationstmt>
+    </filedesc><profiledesc>
+      <creation>Machine-readable finding aid created by Francisco J. Medina. Derived from MS Word.
+Date of source: <date calendar="gregorian" era="ce">August 1993</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc><revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="20040323">March 23, 2004</date>
+        <item>PUBLIC "-//California Institute of Technology::Archives//TEXT (US::CIT::Consult repository::J. Kent Clark Papers)//EN" "clark_j.sgm" converted from EAD 1.0 to 2002 by v1to02.cdl.xsl (2004-09-16).</item>
+      </change>
+    </revisiondesc></eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the J. Kent Clark Papers, <date calendar="gregorian" era="ce">1954-2003</date></titleproper>
+      <num>Collection number: Consult repository</num>
+      <publisher>Archives 
+<lb/><extptr linktype="simple" entityref="caltech" show="embed" actuate="onload" inline="true"/><lb/>California Institute of Technology 
+<lb/>Pasadena, California</publisher>
+      <list type="simple">
+        <head>Contact Information:</head>
+        <item>Archives</item>
+        <item>California Institute of Technology</item>
+        <item>1200 East California Blvd.</item>
+        <item>Mail Code 015A-74</item>
+        <item>Pasadena, CA 91125</item>
+        <item>Phone: (626) 395-2704</item>
+        <item>Fax: (626) 793-8756</item>
+        <item>Email: archives@caltech.edu</item>
+        <item>URL: http://archives.caltech.edu</item>
+      </list>
+      <list type="deflist">
+        <defitem>
+          <label>Processed by: </label>
+          <item>Charlotte E. Erwin</item>
+        </defitem>
+        <defitem>
+          <label>Date Completed: </label>
+          <item>August 23, 1993</item>
+        </defitem>
+        <defitem>
+          <label>Date Updated: </label>
+          <item>Through March 2003</item>
+        </defitem>
+        <defitem>
+          <label>Encoded by: </label>
+          <item>Francisco J. Medina</item>
+        </defitem>
+      </list>
+      <p>&#xA9; 2003 California Institute of Technology. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc xmlns:cdlpath="http://www.cdlib.org/path/" level="collection">
+    <did id="did-1.7.1">
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">J. Kent Clark Papers, </unittitle><unitdate calendar="gregorian" era="ce" type="inclusive">1954-2003</unitdate>
+      <unitid label="Collection number" countrycode="US" repositorycode="CIT">Consult repository</unitid>
+      <origination label="Creator">
+        <persname source="aacr2">Clark, J. Kent, 1917-</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>2 linear feet</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>California Institute of Technology. Archives.</corpname>
+        <address>
+          <addressline>Pasadena, California 91125</addressline>
+        </address>
+      </repository>
+      <abstract label="Abstract">J. Kent Clark, 1917-pres. Professor of English, CIT 1947-86. The papers include manuscripts of dramatic and musical works (with audio casettes), biographical sketches, essays, a manuscript of Clark's biography of Thomas, Earl of Wharton, and some correspondence (esp. with Walter Garner).</abstract>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo" id="descgrp-1.7.2">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access</head>
+        <p>The collection is open for research. Researchers must apply in writing for access.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Publication Rights</head>
+        <p>Copyright has not been assigned to the California Institute of Technology Archives. All requests for permission to publish or quote from manuscripts must be submitted in writing
+to the Head of the Archives. Permission for publication is given on behalf
+of the California Institute of Technology Archives as the owner of the physical items and is not intended
+to include or imply permission of the copyright holder, which must also be
+obtained by the reader.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>Papers of J. Kent Clark. Archives, California Institute of Technology.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Acquisition Information</head>
+        <p>The papers of J. Kent Clark have been donated to the Caltech Archives over a large period of time. Much of the collection was donated in 1990.</p>
+      </acqinfo>
+    </descgrp>
+    <bioghist id="bioghist-1.7.3">
+      <head>Biography</head>
+      <p>J. Kent Clark came to Caltech in 1947 as an instructor in English. He was born in 1917 in
+Utah, and educated at Brigham Young University and at Stanford. At Caltech he was one of
+a group of outstanding teachers of the humanities who began their tenure following World
+War II, at the end of the Millikan era. His renown on campus grew with the creation of a
+series of musicals on campus life and characters between 1954 and 1988, in collaboration
+with Elliott Davis. The musicals were performed by the Caltech Stock Company. A number of
+songs from these shows have achieved notoriety of their own. Clark also wrote musicals
+and plays for organizations other than Caltech. He is the author of a novel, <title linktype="simple" inline="true">The
+King's Agent, </title>and biographies of Goodwin and Thomas Wharton (the Tom Wharton
+biography is still in progress). Clark's life and career are described in the oral
+history done for the Caltech Archives in 1990. He became Emeritus in 1986.</p>
+    </bioghist>
+    <scopecontent id="scopecontent-1.7.4">
+      <head>Scope and Content</head>
+      <p>J. Kent Clark's papers were given to the Archives over a period of time. The first items
+to be received were the musicals, which in most cases were represented by text, musical
+scores, and frequently by audio cassettes as well. Of the remaining papers, the bulk was
+given in 1990. In preparing the materials for use, it was decided to bring all of them
+together in one place, in the collection now called the Papers of J. Kent Clark. The
+exception is the audio cassettes, which reside mostly--there are some exceptions--in the
+Archives' audio collection. Cross references to these audio cassettes are given in the
+Guide to the Papers. However, researchers should consult the separate guide to the audio
+cassette collection for some items which are not referenced in the papers. Three
+phonorecords of Clark's songs and musicals are also separately catalogued.</p>
+    </scopecontent>
+    <controlaccess id="controlaccess-1.7.5">
+      <head>Indexing Terms</head>
+      <p>The following terms have been used to index the description of this collection.</p>
+      <corpname source="lcnaf" encodinganalog="610">California Institute of Technology</corpname>
+      <corpname source="lcnaf" encodinganalog="610">Caltech. Division of Humanities</corpname>
+      <subject source="local" encodinganalog="650">Musicals</subject>
+      <subject source="local" encodinganalog="650">Songs</subject>
+    </controlaccess>
+    <dsc type="in-depth" id="dsc-1.7.6" score="1" C-ORDER="1" MAX-C-ORDER="129">
+      <head>Container List</head>
+      <c01 level="series" id="c01-1.7.6.2" score="1" C-ORDER="2">
+        <did>
+          <unittitle>J. Kent Clark Papers</unittitle>
+        </did>
+        <c02 level="series" id="c02-1.7.6.2.2" score="1" C-ORDER="3">
+          <did>
+            <unittitle>Section I: Dramatic and Musical Works</unittitle>
+          </did>
+          <c03 level="subseries" id="c03-1.7.6.2.2.2" score="1" C-ORDER="4">
+            <did>
+              <unittitle>Musicals</unittitle>
+            </did>
+            <c04 level="file" id="c04-1.7.6.2.2.2.2" score="1" C-ORDER="5">
+              <did>
+                <container type="Box">1</container>
+                <container type="Folder">1</container>
+                <unittitle>The Road to Stockholm (The Appalling Life of Dr. Pauling) <unitdate calendar="gregorian" era="ce">1954 </unitdate>See also: audio cassette collection; phonorecord collection</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.3" score="1" C-ORDER="6">
+              <did>
+                <container type="Folder">2</container>
+                <unittitle>[This is Science] (Show for the AAAS Meeting, Pasadena City College) <unitdate calendar="gregorian" era="ce">1955</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.4" score="1" C-ORDER="7">
+              <did>
+                <container type="Folder">3</container>
+                <unittitle>Who is this Guy DuBridge? <unitdate calendar="gregorian" era="ce">1956 </unitdate>See also: audio cassette collection; phonorecord collection</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.5" score="1" C-ORDER="8">
+              <did>
+                <container type="Folder">4</container>
+                <unittitle>Take Your Medicine <unitdate calendar="gregorian" era="ce">1957-58</unitdate>; rev. 1985 [includes audio cassette]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.6" score="1" C-ORDER="9">
+              <did>
+                <container type="Folder">5</container>
+                <unittitle>The Importance of Being Earnest <unitdate calendar="gregorian" era="ce">1959 </unitdate>See also: audio cassette collection</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.7" score="1" C-ORDER="10">
+              <did>
+                <container type="Folder">6</container>
+                <unittitle>Committees <unitdate calendar="gregorian" era="ce">1960 </unitdate>[2 copies]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.8" score="1" C-ORDER="11">
+              <did>
+                <container type="Folder">7</container>
+                <unittitle>What Makes Beadle Run? <unitdate calendar="gregorian" era="ce">1961</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.9" score="1" C-ORDER="12">
+              <did>
+                <container type="Folder">8</container>
+                <unittitle>The Organization Women <unitdate calendar="gregorian" era="ce">1962</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.10" score="1" C-ORDER="13">
+              <did>
+                <container type="Folder">9</container>
+                <unittitle>Lee and Sympathy <unitdate calendar="gregorian" era="ce">1966 </unitdate>[includes audio cassette] See also: audio cassette collection</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.11" score="1" C-ORDER="14">
+              <did>
+                <container type="Folder">10</container>
+                <unittitle>A Broader View (Show for Caltech Y) <unitdate calendar="gregorian" era="ce">1966</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.12" score="1" C-ORDER="15">
+              <did>
+                <container type="Folder">11</container>
+                <unittitle>The Bacher File <unitdate calendar="gregorian" era="ce">1970 </unitdate>See also: audio cassette collection</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.13" score="1" C-ORDER="16">
+              <did>
+                <container type="Folder">12</container>
+                <unittitle>Beautiful Beckman <unitdate calendar="gregorian" era="ce">1975 </unitdate>[2 copies] See also: audio cassette collection</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.14" score="1" C-ORDER="17">
+              <did>
+                <container type="Folder">13</container>
+                <unittitle>A Broader View (rev.) and Troll's Progress (Playreaders' Party) <unitdate calendar="gregorian" era="ce">1987</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.15" score="1" C-ORDER="18">
+              <did>
+                <container type="Folder">14</container>
+                <unittitle>Middlekauf Cantata <unitdate calendar="gregorian" era="ce">1987</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.16" score="1" C-ORDER="19">
+              <did>
+                <container type="Folder">15</container>
+                <unittitle>Caltech Revisited: or D&#xE9;j&#xE1;, D&#xE9;j&#xE1; Vu <unitdate calendar="gregorian" era="ce">1988</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.2.17" score="1" C-ORDER="20">
+              <did>
+                <container type="Folder">16</container>
+                <unittitle>Selections from Kent Clark Shows [audio cassette]</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries" id="c03-1.7.6.2.2.3" score="1" C-ORDER="21">
+            <did>
+              <unittitle>Song Collections</unittitle>
+            </did>
+            <c04 level="file" id="c04-1.7.6.2.2.3.2" score="1" C-ORDER="22">
+              <did>
+                <container type="Box">2</container>
+                <container type="Folder">1</container>
+                <unittitle>"Let's Advance on Science" and other songs [includes audio cassette] See also: phonorecord collection</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.3.3" score="1" C-ORDER="23">
+              <did>
+                <container type="Folder">2</container>
+                <unittitle>Retirement songs: R. Sharp, H. Wayland, H. Brown</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.2.3.4" score="1" C-ORDER="24">
+              <did>
+                <container type="Folder">3</container>
+                <unittitle>"Ballad of Chappaquiddick" and "The Richter Scale" [phonodisc]</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries" id="c03-1.7.6.2.2.4" score="1" C-ORDER="25">
+            <did>
+              <unittitle>Show, Huntington Library celebration</unittitle>
+            </did>
+            <c04 level="file" id="c04-1.7.6.2.2.4.2" score="1" C-ORDER="26">
+              <did>
+                <container type="Folder">4</container>
+                <unittitle>Paradise Re-Lost <unitdate calendar="gregorian" era="ce">1983 </unitdate>[for James Thorpe]</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.3" score="1" C-ORDER="27">
+          <did>
+            <unittitle>Section II: Literary Works</unittitle>
+          </did>
+          <c03 level="subseries" id="c03-1.7.6.2.3.2" score="1" C-ORDER="28">
+            <did>
+              <unittitle>Profiles [Biographical sketches]</unittitle>
+            </did>
+            <c04 level="file" id="c04-1.7.6.2.3.2.2" score="1" C-ORDER="29">
+              <did>
+                <container type="Box">2</container>
+                <container type="Folder">5</container>
+                <unittitle>[Note on Profiles]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.3.2.3" score="1" C-ORDER="30">
+              <did>
+                <container type="Folder">6</container>
+                <unittitle>Coltrin, Bill <unitdate calendar="gregorian" era="ce" datechar="single">1982</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.3.2.4" score="1" C-ORDER="31">
+              <did>
+                <container type="Folder">7</container>
+                <unittitle>Eagleson, Harvey <unitdate calendar="gregorian" era="ce" datechar="single">1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.3.2.5" score="1" C-ORDER="32">
+              <did>
+                <container type="Folder">8</container>
+                <unittitle>Eaton, Paul <unitdate calendar="gregorian" era="ce" datechar="single">1976</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.3.2.6" score="1" C-ORDER="33">
+              <did>
+                <container type="Folder">9</container>
+                <unittitle>Hershey, Wes, memorial service <unitdate calendar="gregorian" era="ce" datechar="single">1989</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.3.2.7" score="1" C-ORDER="34">
+              <did>
+                <container type="Folder">10</container>
+                <unittitle>Kent, Henry C. [JKC's grandfather; in letter to Clarence Kent] <unitdate calendar="gregorian" era="ce" datechar="single">1987</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.3.2.8" score="1" C-ORDER="35">
+              <did>
+                <container type="Folder">11</container>
+                <unittitle>Kent, Percy D. and Sara [JKC's uncle and aunt] <unitdate calendar="gregorian" era="ce" datechar="single">1978</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.3.2.9" score="1" C-ORDER="36">
+              <did>
+                <container type="Folder">12</container>
+                <unittitle>Langston, Beach <unitdate calendar="gregorian" era="ce" datechar="single">1979</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.3.2.10" score="1" C-ORDER="37">
+              <did>
+                <container type="Folder">13</container>
+                <unittitle>Oliver, Bob, retirement <unitdate calendar="gregorian" era="ce" datechar="single">1988</unitdate>; Oliver, Darlene, memorial speech <unitdate calendar="gregorian" era="ce" datechar="single">1987</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.3.2.11" score="1" C-ORDER="38">
+              <did>
+                <container type="Folder">14</container>
+                <unittitle>Searle, Don <unitdate calendar="gregorian" era="ce" datechar="single">1982-83</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries" id="c03-1.7.6.2.3.3" score="1" C-ORDER="39">
+            <did>
+              <unittitle>Essays and Other Writings</unittitle>
+            </did>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.2" score="1" C-ORDER="40">
+              <did>
+                <container type="Folder">15</container>
+                <unittitle>[Note on Essays]</unittitle>
+              </did>
+            </c04>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.3" score="1" C-ORDER="41">
+              <did>
+                <container type="Folder">16</container>
+                <unittitle>[Jonathan] Swift and the Dutch <unitdate calendar="gregorian" era="ce" datechar="single">1954</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.4" score="1" C-ORDER="42">
+              <did>
+                <container type="Folder">17</container>
+                <unittitle>Eliot's Poetic Theory and Practice <unitdate calendar="gregorian" era="ce" datechar="single">1956</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.5" score="1" C-ORDER="43">
+              <did>
+                <container type="Folder">18</container>
+                <unittitle>Readings in Rationalism <unitdate calendar="gregorian" era="ce" datechar="single">1959</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.6" score="1" C-ORDER="44">
+              <did>
+                <container type="Folder">19</container>
+                <unittitle>The Art Program at Caltech <unitdate calendar="gregorian" era="ce" datechar="single">1971</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.7" score="1" C-ORDER="45">
+              <did>
+                <container type="Folder">20</container>
+                <unittitle>Diatribe [re Jenijoy LaBelle; in letter to Peter Fay] <unitdate calendar="gregorian" era="ce" datechar="single">1976</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.8" score="1" C-ORDER="46">
+              <did>
+                <container type="Folder">21</container>
+                <unittitle>The Creative Arts and Twentieth Century Education <unitdate calendar="gregorian" era="ce" datechar="single">1979</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.9" score="1" C-ORDER="47">
+              <did>
+                <container type="Folder">22</container>
+                <unittitle>Article on secretaries <unitdate calendar="gregorian" era="ce" datechar="single">1986</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.10" score="1" C-ORDER="48">
+              <did>
+                <container type="Folder">23</container>
+                <unittitle>Letter to students [re abolishing Invocation at Commencement] <unitdate calendar="gregorian" era="ce" datechar="single">1985</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.11" score="1" C-ORDER="49">
+              <did>
+                <unittitle>Humanities Division Working Papers:</unittitle>
+              </did>
+              <c05 level="file" id="c05-1.7.6.2.3.3.11.2" score="1" C-ORDER="50">
+                <did>
+                  <container type="Folder">24</container>
+                  <unittitle>The Inglorious Revolution <unitdate calendar="gregorian" era="ce" datechar="single">1979</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file" id="c05-1.7.6.2.3.3.11.3" score="1" C-ORDER="51">
+                <did>
+                  <unittitle>Lilliburlero (Chap. 16 of Goodwin Wharton biography) <unitdate calendar="gregorian" era="ce" datechar="single">1979</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file" id="c05-1.7.6.2.3.3.11.4" score="1" C-ORDER="52">
+                <did>
+                  <unittitle>The Colonel and the Queen (Chap. 19 of Goodwin Wharton biography) <unitdate calendar="gregorian" era="ce" datechar="single">1980</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file" id="c05-1.7.6.2.3.3.11.5" score="1" C-ORDER="53">
+                <did>
+                  <container type="Folder">25</container>
+                  <unittitle>The Search for the First Earl of Wharton [2 copies] <unitdate calendar="gregorian" era="ce" datechar="single">1988</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file" id="c05-1.7.6.2.3.3.11.6" score="1" C-ORDER="54">
+                <did>
+                  <unittitle>Young Tom Wharton <unitdate calendar="gregorian" era="ce" datechar="single">1989</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file" id="c05-1.7.6.2.3.3.11.7" score="1" C-ORDER="55">
+                <did>
+                  <unittitle>Marriage &#xE1; la Mode <unitdate calendar="gregorian" era="ce" datechar="single">1990</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file" id="c05-1.7.6.2.3.3.11.8" score="1" C-ORDER="56">
+                <did>
+                  <unittitle>The Third Whig <unitdate calendar="gregorian" era="ce" datechar="single">1991</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file" id="c05-1.7.6.2.3.3.11.9" score="1" C-ORDER="57">
+                <did>
+                  <unittitle>The Plot of "The Plot" [Ch. 9 of Wharton biography, <unitdate calendar="gregorian" era="ce" datechar="single">n.d.]</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="subseries" id="c04-1.7.6.2.3.3.12" score="1" C-ORDER="58">
+              <did>
+                <container type="Folder">26</container>
+                <unittitle>Defense of Robert Oliver's <title linktype="simple" inline="true">George Woods and the World Bank </title><unitdate calendar="gregorian" era="ce" datechar="single">1993</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.4" score="1" C-ORDER="59">
+          <did>
+            <unittitle>Section III: Personal</unittitle>
+          </did>
+          <c03 level="subseries" id="c03-1.7.6.2.4.2" score="1" C-ORDER="60">
+            <did>
+              <container type="Box">2</container>
+              <container type="Folder">27</container>
+              <unittitle>Vita</unittitle>
+            </did>
+          </c03>
+          <c03 level="subseries" id="c03-1.7.6.2.4.3" score="1" C-ORDER="61">
+            <did>
+              <container type="Folder">28</container>
+              <unittitle>Reunion Program, Brigham Young University <unitdate calendar="gregorian" era="ce" datechar="single">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="subseries" id="c03-1.7.6.2.4.4" score="1" C-ORDER="62">
+            <did>
+              <unittitle>See also: Oral History Collection</unittitle>
+            </did>
+          </c03>
+          <c03 level="subseries" id="c03-1.7.6.2.4.5" score="1" C-ORDER="63">
+            <did>
+              <unittitle>See also: Audio Tape Collection</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.5" score="1" C-ORDER="64">
+          <did>
+            <unittitle>Supplement <unitdate calendar="gregorian" era="ce" datechar="single">1994</unitdate></unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.2.5.2" score="1" C-ORDER="65">
+            <did>
+              <container type="Box">3</container>
+              <container type="Folder">1</container>
+              <unittitle>Exclusion [Ch. 10-12 of the Wharton biography]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.2.5.3" score="1" C-ORDER="66">
+            <did>
+              <container type="Folder">2</container>
+              <unittitle>The Search for Goodwin Wharton <unitdate calendar="gregorian" era="ce" datechar="single">1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.2.5.4" score="1" C-ORDER="67">
+            <did>
+              <container type="Folder">3</container>
+              <unittitle>The Publication of <title linktype="simple" inline="true">Goodwin Wharton</title>... and the Search for Thomas, Earl of Wharton <unitdate calendar="gregorian" era="ce" datechar="single">1984</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.6" score="1" C-ORDER="68">
+          <did>
+            <unittitle>Supplement <unitdate calendar="gregorian" era="ce" datechar="single">1995</unitdate></unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.2.6.2" score="1" C-ORDER="69">
+            <did>
+              <container type="Box">3</container>
+              <container type="Folder">4</container>
+              <unittitle>Anne Wharton [Ch. 13 of the Wharton biography]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.2.6.3" score="1" C-ORDER="70">
+            <did>
+              <container type="Folder">5</container>
+              <unittitle>Outrages [Ch. 14 of the Wharton biography]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.2.6.4" score="1" C-ORDER="71">
+            <did>
+              <container type="Folder">6</container>
+              <unittitle>Seizures [Ch. 15 of the Wharton biography]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.7" score="1" C-ORDER="72">
+          <did>
+            <unittitle>Supplement <unitdate calendar="gregorian" era="ce" datechar="single">1996</unitdate></unittitle>
+          </did>
+          <c03 level="subseries" id="c03-1.7.6.2.7.2" score="1" C-ORDER="73">
+            <did>
+              <container type="Box">3</container>
+              <container type="Folder">7</container>
+              <unittitle>Transcript of speech by J. C. Clark for 100th Founder's Day celebration of Gnome Club <unitdate calendar="gregorian" era="ce" datechar="single">9 March 1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="subseries" id="c03-1.7.6.2.7.3" score="1" C-ORDER="74">
+            <did>
+              <container type="Folder">8</container>
+              <unittitle>Letter to Denise Smith <unitdate calendar="gregorian" era="ce" datechar="single">17 Jan 1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="subseries" id="c03-1.7.6.2.7.4" score="1" C-ORDER="75">
+            <did>
+              <unittitle>Correpondence with Walter Garner</unittitle>
+            </did>
+            <c04 level="file" id="c04-1.7.6.2.7.4.2" score="1" C-ORDER="76">
+              <did>
+                <container type="Folder">9</container>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" datechar="single">1976-1978</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.7.4.3" score="1" C-ORDER="77">
+              <did>
+                <container type="Folder">10</container>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" datechar="single">1979-1981</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.7.4.4" score="1" C-ORDER="78">
+              <did>
+                <container type="Folder">11</container>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" datechar="single">1982-1984</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.7.4.5" score="1" C-ORDER="79">
+              <did>
+                <container type="Folder">12</container>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" datechar="single">1985-1986</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.7.4.6" score="1" C-ORDER="80">
+              <did>
+                <container type="Folder">13</container>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" datechar="single">1987-1988</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.7.4.7" score="1" C-ORDER="81">
+              <did>
+                <container type="Folder">14</container>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" datechar="single">1989-1990</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.7.4.8" score="1" C-ORDER="82">
+              <did>
+                <container type="Folder">15</container>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" datechar="single">1991-1992</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.7.4.9" score="1" C-ORDER="83">
+              <did>
+                <container type="Folder">16</container>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" datechar="single">1993-1996</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries" id="c03-1.7.6.2.7.5" score="1" C-ORDER="84">
+            <did>
+              <container type="Box">4</container>
+              <container type="Folder">1</container>
+              <unittitle>Letter about Elliott Davis <unitdate calendar="gregorian" era="ce" datechar="single">20 Nov 1996 </unitdate>(to Walter and Irene Garner)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.8" score="1" C-ORDER="85">
+          <did>
+            <unittitle>Supplement <unitdate calendar="gregorian" era="ce" datechar="single">1997</unitdate></unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.2.8.2" score="1" C-ORDER="86">
+            <did>
+              <container type="Box">4</container>
+              <container type="Folder">2</container>
+              <unittitle>Horses and Bridles [Ch. 19 of Tom Wharton Biography] <unitdate calendar="gregorian" era="ce" datechar="single">November 1997</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.9" score="1" C-ORDER="87">
+          <did>
+            <unittitle>Supplement <unitdate calendar="gregorian" era="ce" datechar="single">1998</unitdate></unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.2.9.2" score="1" C-ORDER="88">
+            <did>
+              <container type="Box">4</container>
+              <container type="Folder">3</container>
+              <unittitle>Speech to the Class of 1958 [ <unitdate calendar="gregorian" era="ce" datechar="single">15 May 1998]</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.10" score="1" C-ORDER="89">
+          <did>
+            <unittitle>Supplement <unitdate calendar="gregorian" era="ce" datechar="single">1999</unitdate></unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.2.10.2" score="1" C-ORDER="90">
+            <did>
+              <container type="Box">4</container>
+              <container type="Folder">4</container>
+              <unittitle>Wharton, Thomas, Draft for Dictionary of National Biography</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.11" score="1" C-ORDER="91">
+          <did>
+            <unittitle>Supplement <unitdate calendar="gregorian" era="ce" datechar="single">2001</unitdate></unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.2.11.2" score="1" C-ORDER="92">
+            <did>
+              <container type="Box">4</container>
+              <container type="Folder">5</container>
+              <unittitle>Foreward to Diary of Martin Tangora</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.2.11.3" score="1" C-ORDER="93">
+            <did>
+              <unittitle>New Vita (1999): <emph>See 2.27</emph></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.12" score="1" C-ORDER="94">
+          <did>
+            <unittitle>Supplement <unitdate calendar="gregorian" era="ce" datechar="single">2002</unitdate></unittitle>
+          </did>
+          <c03 level="subseries" id="c03-1.7.6.2.12.2" score="1" C-ORDER="95">
+            <did>
+              <container type="Box">4</container>
+              <container type="Folder">6</container>
+              <unittitle>Talk to Class of 1952 <unitdate calendar="gregorian" era="ce" datechar="single">May 16, 2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="subseries" id="c03-1.7.6.2.12.3" score="1" C-ORDER="96">
+            <did>
+              <unittitle>Short essays</unittitle>
+            </did>
+            <c04 level="file" id="c04-1.7.6.2.12.3.2" score="1" C-ORDER="97">
+              <did>
+                <container type="Box">4</container>
+                <container type="Folder">6</container>
+                <unittitle>George Epstein's poetry</unittitle>
+              </did>
+            </c04>
+            <c04 level="file" id="c04-1.7.6.2.12.3.3" score="1" C-ORDER="98">
+              <did>
+                <container type="Box">4</container>
+                <container type="Folder">6</container>
+                <unittitle>Elegy on my brother:  Ernest Eugene Clark</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.2.13" score="1" C-ORDER="99">
+          <did>
+            <unittitle>Supplement <unitdate calendar="gregorian" era="ce" datechar="single">2003</unitdate></unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.2.13.2" score="1" C-ORDER="100">
+            <did>
+              <container type="Box">4</container>
+              <container type="Folder">7</container>
+              <unittitle>Huntington Library (with Carol B. Pearson), March 12, 2003</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series" id="c01-1.7.6.3" score="1" C-ORDER="101">
+        <did>
+          <unittitle>J. Kent Clark Audio Material</unittitle>
+        </did>
+        <c02 level="series" id="c02-1.7.6.3.2" score="1" C-ORDER="102">
+          <did>
+            <unittitle>I. Audio Cassettes in Audio Cassette Archive</unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.3.2.2" score="1" C-ORDER="103">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">12-9-54</unitdate>
+              <unittitle>The Road to Stockholm [2 copies]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.3" score="1" C-ORDER="104">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">12-7-56</unitdate>
+              <unittitle>Who is This Guy DuBridge?</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.4" score="1" C-ORDER="105">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">10-22-59</unitdate>
+              <unittitle>[The Importance of Being Earnest]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.5" score="1" C-ORDER="106">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">3-21-61</unitdate>
+              <unittitle>What Makes Beadle Run?</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.6" score="1" C-ORDER="107">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">4-28-66</unitdate>
+              <unittitle>Caltech in E-flat</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.7" score="1" C-ORDER="108">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">11-18-66</unitdate>
+              <unittitle>Lee and Sympathy</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.8" score="1" C-ORDER="109">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">1966</unitdate>
+              <unittitle>A Broader View [Caltech Y Anniversary]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.9" score="1" C-ORDER="110">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">1-12-69</unitdate>
+              <unittitle>DuBridge Farewell Program</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.10" score="1" C-ORDER="111">
+            <did>
+              <unittitle>DuBridge Farewell Dinner (also exists on reel-to-reel tape)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.11" score="1" C-ORDER="112">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">11-19-70</unitdate>
+              <unittitle>The Bacher File</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.12" score="1" C-ORDER="113">
+            <did>
+              <unittitle>The Bacher Dinner</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.13" score="1" C-ORDER="114">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">1-13-75</unitdate>
+              <unittitle>Beautiful Beckman [2 copies]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.14" score="1" C-ORDER="115">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">5-13-78</unitdate>
+              <unittitle>On the Trail of Goodwin Wharton (Talk on Alumni Seminar Day) [2 copies]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.15" score="1" C-ORDER="116">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">4-7-80</unitdate>
+              <unittitle>Arnold Beckman's 80th birthday party (performance by K. Clark and G. Lorden)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.16" score="1" C-ORDER="117">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">1-11-90</unitdate>
+              <unittitle>Caltech As Musical Comedy (for Caltech Women's Club)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.2.17" score="1" C-ORDER="118">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">4-10-92</unitdate>
+              <unittitle>Arnold Beckman's 92nd birthday party (reprise of material from 80th party by Clark and Lorden)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.3.3" score="1" C-ORDER="119">
+          <did>
+            <unittitle>II. Audio Cassettes in the Papers of J. Kent Clark</unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.3.3.2" score="1" C-ORDER="120">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">1958</unitdate>
+              <unittitle>Songs from Take Your Medicine [1.4]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.3.3" score="1" C-ORDER="121">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">1966</unitdate>
+              <unittitle>Lee and Sympathy (excerpt) [1.9]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.3.4" score="1" C-ORDER="122">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">1975</unitdate>
+              <unittitle>Selections from Kent Clark Shows [1.16]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.3.5" score="1" C-ORDER="123">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">1975</unitdate>
+              <unittitle>Let's Advance on Science (song collection) [2.1]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.3.4" score="1" C-ORDER="124">
+          <did>
+            <unittitle>III. Phonorecords in Phonorecord Collection</unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.3.4.2" score="1" C-ORDER="125">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">ca 1954</unitdate>
+              <unittitle>The Road to Stockholm [2 copies]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.4.3" score="1" C-ORDER="126">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">ca 1956</unitdate>
+              <unittitle>Who is This Guy DuBridge?</unittitle>
+            </did>
+          </c03>
+          <c03 level="file" id="c03-1.7.6.3.4.4" score="1" C-ORDER="127">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">after 1975</unitdate>
+              <unittitle>Let's Advance on Science (song collection)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series" id="c02-1.7.6.3.5" score="1" C-ORDER="128">
+          <did>
+            <unittitle>IV. Phonorecord in the Papers of J. Kent Clark</unittitle>
+          </did>
+          <c03 level="file" id="c03-1.7.6.3.5.2" score="1" C-ORDER="129">
+            <did>
+              <unitdate calendar="gregorian" era="ce" datechar="single">no date</unitdate>
+              <unittitle>"Ballad of Chappaquiddick" and "The Richter Scale" [2.3]</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
