@@ -38,6 +38,10 @@ import (
 	"encoding/xml"
 )
 
+const (
+	Version = "0.0.1"
+)
+
 type EAD struct {
 	XMLName   xml.Name   `json:"-"`
 	EADHeader *EADHeader `xml:"eadheader,omitempty" json:"eadheader,omitempty"`
