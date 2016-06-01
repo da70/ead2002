@@ -3,12 +3,14 @@
 
 This is a go package for working with EAD2002 finding aids. 
 
-## about examples-ead
+## about sample ead
+
+### examples-ead/
 
 This is a mix of examples taken from Caltech Archives EAD at the Online Archive of California as well as similar
 samples produce by ArchivesSpace.
 
-## about testdata/
+### testdata/
 
 Examples in the testdata directory were taken from [appendix c](https://www.loc.gov/ead/tglib/appendix_c.html) of the ead2002 website.
 
