@@ -132,7 +132,7 @@ func TestDataEADs(t *testing.T) {
 	}
 	physdesc := did.PhysDesc
 	if physdesc.AltRender != "whole" {
-		t.Error("Wrong value for physdesc.AltRender, %+v", physdesc)
+		t.Errorf("Wrong value for physdesc.AltRender, %+v", physdesc)
 	}
 	if physdesc.Extent == nil {
 		t.Errorf("Missing physdesc.Extent")
