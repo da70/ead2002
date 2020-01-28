@@ -34,6 +34,7 @@
 package ead2002
 
 import (
+	"encoding/json"
 	"io/ioutil"
 	"path"
 	"strings"
@@ -50,7 +51,7 @@ func TestDataEADs(t *testing.T) {
 
 	ead, err := Parse(src)
 	if err != nil {
-		t.Errorf("Failed ot parse %s, %s", fname, err)
+		t.Errorf("Failed to parse %s, %s", fname, err)
 	}
 
 	if ead.EADHeader == nil {
@@ -424,4 +425,23 @@ func TestExampleEADs(t *testing.T) {
 	// Test the OAC version of the EAD
 	//
 	testParse10021_MS(path.Join("testeads", "10021-MS_ead-from-OAC.xml"))
+}
+
+func TestString(t *testing.T) {
+	fname := path.Join("testeads", "2016.0518.0001.test_ead.xml")
+	src, err := ioutil.ReadFile(fname)
+	if err != nil {
+		t.Errorf("Cannot read %s, %s", fname, err)
+		t.FailNow()
+	}
+
+	ead, err := Parse(src)
+	if err != nil {
+		t.Errorf("Failed ot parse %s, %s", fname, err)
+	}
+
+	jsonData, err := json.MarshalIndent(ead, "", "    ")
+	if err != nil {
+		t.Errorf(err)
+	}
 }
