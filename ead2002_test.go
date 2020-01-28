@@ -85,7 +85,7 @@ func TestDataEADs(t *testing.T) {
 	}
 	publicationstmt := filedesc.PublicationStmt
 	if publicationstmt.Publisher == nil {
-		t.Errorf("Missing pulbicationstmt.Publisher")
+		t.Errorf("Missing publicationstmt.Publisher")
 	}
 	if publicationstmt.Publisher.Value != "Caltech Archives" {
 		t.Errorf("Wrong value for publications.Publisher, %+v", publicationstmt.Publisher)
